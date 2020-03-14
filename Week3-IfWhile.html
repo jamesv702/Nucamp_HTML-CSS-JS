@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Example of do .. while() </title>
+    <meta name="author" content="James Velasco" charset="UTF-8">
+    <script>
+        var response, finished;
+        finished=false;
+        alert("I'd like to code in Javascript all night!");
+
+      while (!finished) {
+            response=prompt("Do you agree?");
+            if (response.indexOf("y")==0)
+                finished=true;    
+            else alert("This is unacceptable")
+      }
+    </script>
+</head>
+</html>

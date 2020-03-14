@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script>
+            function singImg() {
+                document.getElementById('myImg').src='https://i.pinimg.com/originals/7c/d3/f5/7cd3f5f18af5e47705543062bedb75bc.jpg'
+            }
+          
+            function normalImg() {
+                document.getElementById('myImg').src='https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/smiling-face-with-open-mouth.png'
+            }
+        </script>
+    </head>
+    <body>
+        <img id="myImg" onmouseover="singImg(this)" onmouseout="normalImg(this)" border="0" src="https://s3.amazonaws.com/pix.iemoji.com/images/emoji/apple/ios-12/256/smiling-face-with-open-mouth.png" alt="Smiley" height="32" width="32"> 
+        
+        <p> The function bigImg() is triggered when the user moves the mouse pointer over the image.</p>
+        <p> THe function normalImg() is triggered when the mouse pointer is moved out of the image.</p>
+
+    </body>
+</html>
